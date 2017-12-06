@@ -1,14 +1,19 @@
-*{
+*{ 
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
 }
 
+body{
+    background: #333;
+    background-color: rgba(0,0,0,0.8)
+}
 .container-all{
     position: relative;
     max-width: 1200px;
     margin: auto;
 }
+
  .container-background{
     background-image: url(/img/background.jpg);
     background-size: cover;
@@ -54,8 +59,7 @@ span a{
 
 
 iframe{
-    padding: 2px;
-    margin: auto;
+    margin-top: 4px;
     height: 210px;
 }
 
